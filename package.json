@@ -2,6 +2,9 @@
   "name": "novavi",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "22.x"
+  },
   "scripts": {
     "dev:next": "next dev",
     "dev": "ts-node --require tsconfig-paths/register --project tsconfig.server.json server/server.ts",
